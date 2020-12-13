@@ -27,13 +27,29 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+forEach and map are both array methods that take a callback function. forEach will modify the original array, whereas map returns a new array and does not modify the original array.
+
 2. Explain the difference between a callback and a higher order function.
+
+A higher order function is a function that receives another function as a callback or returns another function. A callback function is a function that is passed as a parameter to a higher order function and invoked by the higher order function.
 
 3. What is closure?
 
+Closure refers to when a function reaches outside of its scope to access variables, etc. in its lexical environment.
+
 4. Describe the four rules of the 'this' keyword.
 
+Global - 'this' refers to the global window/console object when it is not bound to any other object
+
+Implicit - when 'this' is used inside of an object, it refers to that object
+
+Explicit - when you choose which object to bind 'this' to using call, apply, or bind
+
+New - when an object is created using the new keyword, 'this' refers to that object
+
 5. Why do we need super() in an extended class?
+
+super() abstracts away using call to get the properties from the parent constructor function
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
@@ -58,22 +74,22 @@ Your finished project must include all of the following requirements
 #### Task A: Closure
 
 This challenge takes a look at closures as well as scope. 
-* [ ] Find this challenge in the index.js file. Read the instructions carefully!
+* [x] Find this challenge in the index.js file. Read the instructions carefully!
 
 #### Task B: Objects and Arrays
 
 Test your knowledge of advanced array methods and callbacks.
-* [ ] Find this challenge in the index.js file. Read the instructions carefully!
+* [x] Find this challenge in the index.js file. Read the instructions carefully!
 
 #### Task C: Prototypes
 
 Create constructors, bind methods, and create cuboids in this prototypes challenge.
-* [ ] Find this challenge in the index.js file. Read the instructions carefully!
+* [x] Find this challenge in the index.js file. Read the instructions carefully!
 
 #### Task D: Classes
 
 Once you have completed the prototypes challenge, it's time to convert all your hard work into classes.
-* Find this challenge in the index.js file. Read the instructions carefully!
+* [x] Find this challenge in the index.js file. Read the instructions carefully!
 
 In your solutions, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
