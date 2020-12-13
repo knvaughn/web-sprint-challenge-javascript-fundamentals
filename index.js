@@ -17,7 +17,9 @@ myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
 
-
+// nestedFunction can access the variable internal because it is in its lexical environment. 
+// The nestedFunction can reach outside of its scope to access the internal variable.
+// This is a closure.
 
 
 
